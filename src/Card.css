@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Robot:wght@200..700&display=swap');
+.Card {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    width: 400px;
+    height: 15vh;
+    margin-top: 10px;
+  }
+
+.Card .CardHeader {
+    display: flex;
+    width: 15vh;
+    align-items: center;
+    justify-content: center;
+}  
+.Card .CardHeader .avatar{
+    border-radius: 50%;
+    width: 12vh;  
+}
+.Card .datePerfil{
+    color: white;
+    align-items: left;
+    justify-content: top;
+    width: 80%;
+}
+.Card .datePerfil h1{
+    font-size: 1.8em;
+    font-family: "Montserrat", sans-serif;
+}
+.Card .datePerfil p{
+    font-size: 0.8em;
+    font-family: "Robot", sans-serif;
+    font-weight: 100;
+}

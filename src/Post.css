@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Post {
+    background-color: #c2c2c2; 
+    font-size: 20px;
+}
+
+.Post header {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-bottom: 3px solid red;
+} 
+
+.Post header h1{
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.Post p{
+    font-size: 1.2em;
+    padding: 20px;
+}
